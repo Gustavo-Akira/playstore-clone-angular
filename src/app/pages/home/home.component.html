@@ -1,0 +1,7 @@
+<div class="home__container">
+    @for (game of games; track $index) {
+        <app-card gameType="{{game.gameType}}"  gameLabel="{{game.label}}" gamePrice="{{game.price}}" gameCover="{{game.image}}"></app-card>
+    }
+    
+   
+</div>
